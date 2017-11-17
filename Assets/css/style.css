@@ -1,0 +1,180 @@
+
+body{
+	background: url("../images/fresh_snow_@2X.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+#headerwrap{
+	width:100%;
+	background:white;
+	margin: 0;
+	border-bottom: 2px solid #cccccc;
+}
+header{
+	width: 960px;
+	background-color: white;
+	margin: 0 auto;
+}
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	float: left;
+	padding: 20px;
+	font-size: 24px;
+}
+h2{
+	color: #4aaaa5;
+	font-size: 24px;
+	border-bottom: 2px solid #DEDEDE;
+	margin-bottom: 15px;
+	padding-top:10px;
+}
+h3{
+	color: #4aaaa5;
+	border-bottom: 1px solid #EFEFEF;
+	text-align: center;
+	font-size:18px;
+	padding-bottom: 10px;
+}
+p{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top: 20px;
+	padding-left: 20px;
+	line-height: 200%;
+}
+nav ul li{
+	display: inline;
+	float: right;
+	padding: 20px 0 0;
+}
+nav ul li a {
+	text-decoration: none;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	color:#CCCCCC;
+}
+a:hover {
+  color: #4aaaa5;
+}
+.spacer{
+	padding:20px 25px;
+	color:#CCCCCC;
+}
+.clearfix {
+	overflow:auto;
+}
+#bodyContent{
+	clear: both;
+	width: 610px;
+	margin-top: 34px;
+	margin-left: 240px;
+	margin-bottom: 30px;
+	float: left;
+	padding: 20px;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	}
+#wrapper{
+	clear: both;
+	background: #ffffff;
+	margin-top: 30px;
+	margin-left: 240px;
+	border: 1px solid #dddddd;
+	width: 610px;
+	float: left;
+	padding: 20px;
+}
+.content{
+	float: left;
+}
+#spacingbetweenlinks {
+	margin-top: 20px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #ccc;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding-top: 20px;
+}
+#sidebar{
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	margin-top: 30px;
+	margin-left: 40px;
+	padding: 30px;
+	width: 210px;
+	float: left;
+}
+.floating-box {
+    display: inline-block;
+    width: 10px;
+    height: 75px;
+    margin: 10px;
+    float: left;
+}
+.photosleft{
+	clear: both;
+	float: left;
+	width: 285px;
+	height: 100%;
+	position: relative;
+}
+.photosright{
+	float: right;
+	width: 285px;
+	height: 100%;
+	position: relative;
+}
+.title{ 	
+   position: relative; 
+   background: #4aaaa5;
+   bottom: 50px;
+   width: 100%;
+  text-align: center;
+  color: white; 
+  padding: 10px 0;
+   font: 18px 'Georgia', Times, Times New Roman, serif;  
+}
+
+ footer{ 
+	clear: both;	
+	border-top: 6px solid #4aaaa5;
+	background: #666666;
+	text-align: center;
+	color: white;
+	padding: 30px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	align-items: center;
+}
